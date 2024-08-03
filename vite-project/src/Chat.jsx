@@ -22,7 +22,7 @@ function Chat() {
     connectToWs();
   },[])
   function connectToWs(){
-    const ws= new WebSocket('ws://localhost:4040')
+    const ws= new WebSocket('ws://localhost:5000')
     setWs(ws);
     ws.addEventListener("message",handleMessage)
     ws.addEventListener("close", ()=> {

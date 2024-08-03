@@ -141,7 +141,7 @@ app.get('/profile', (req,res) => {
 
 
 
-const server= app.listen(4040);
+const server= app.listen(5000);
 const wss= new ws.WebSocketServer({server});
 wss.on('connection',(connection, req)=> {
 

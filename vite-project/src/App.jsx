@@ -4,7 +4,7 @@ import Routes from "./Routes";
 import toast ,{Toaster} from "react-hot-toast";
 
 function App() {
-  axios.defaults.baseURL = 'http://localhost:4040'
+  axios.defaults.baseURL = 'http://localhost:5000'
   axios.defaults.withCredentials=true;
   
   return (
