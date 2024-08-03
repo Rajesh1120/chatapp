@@ -25,7 +25,7 @@ app.use(cookieParser())
 
 app.use(cors({
     credentials: true,
-    origin: "http://localhost:5173",
+    origin: ["http://localhost:5173","http://chat-app-frontend-01.s3-website.us-east-2.amazonaws.com/"]
     
   }));
 
